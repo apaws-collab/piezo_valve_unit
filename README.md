@@ -10,10 +10,18 @@ We are currently working on a CAD version of the valve unit and the correspondin
 ---
 
 ### CAD  
-_work in progress_
+The block and the cap are created in FreeCAD V1.0
+_work in progress_:
+- [x] Valve block (main part)
+- [ ] Cap
+- [ ] Assembly and parts list
 
-### Electric circuit  
-_work in progress_
+
+### Electric circuit
+The distributor board is created in KiCAD V8.0
+_work in progress_:
+- [x] Overview
+- [ ] Layout and parts list
 
 ### m-code  
 This MATLAB code provides a reference implementation of a pressure control framework for soft pneumatic actuators (SPAs), using Festo's VEAE piezo valves. Two valves are assembled in an SLA-printed housing to form a compact 3/3 valve unit. Due to its small size, the valve unit is designed to be mounted directly on or near the actuator. This proximity, combined with volume-adaptive control, enables high-precision pressure regulation.
