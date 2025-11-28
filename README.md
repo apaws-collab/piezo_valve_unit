@@ -5,23 +5,24 @@ Welcome to this project that demonstrates a data-driven pressure controller for 
 
 **Disclaimer**: This code is not plug-and-play due to variability in hardware and control system setups. However, it serves as a comprehensive guideline for building a high-accuracy pressure controller, following the outlined implementation steps.
 
-We are currently working on a CAD version of the valve unit and the corresponding distribution circuit for the VEAE valves.
-
 ---
 
 ### CAD  
 The block and the cap are created in FreeCAD V1.0
 _work in progress_:
-- [x] Valve block (main part)
-- [ ] Cap
+- [x] Valve block (main part), SLA printed
+- [x] Cap, FDM printed
 - [ ] Assembly and parts list
+- [ ] Construction details
 
 
 ### Electric circuit
 The distributor board is created in KiCAD V8.0
 _work in progress_:
 - [x] Overview
-- [ ] Layout and parts list
+- [x] Layout
+- [x] Circuit, KiCad 9.0
+- [ ] BOM
 
 ### m-code  
 This MATLAB code provides a reference implementation of a pressure control framework for soft pneumatic actuators (SPAs), using Festo's VEAE piezo valves. Two valves are assembled in an SLA-printed housing to form a compact 3/3 valve unit. Due to its small size, the valve unit is designed to be mounted directly on or near the actuator. This proximity, combined with volume-adaptive control, enables high-precision pressure regulation.
